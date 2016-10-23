@@ -13,15 +13,23 @@ body {
     margin-bottom: 500px;
     padding: 25px;
     padding-bottom: 400px;
+    
+}
+nav {
+  font-weight: bold;
+  font-variant: small-caps;  
 }
 
 h1 {
     text-align: center;
     font-size: 2.1em;
     font-family: georgia;
-
     letter-spacing: 20px;
     word-spacing 5px;
+    font-variant: small-caps;
+    text-shadow: 2px 2px #F65B08;
+    
+
 }
 h3 {
    font-weight: bold;
@@ -36,7 +44,9 @@ h4 {
 h5 {
    font-weight: bold;
    word-spacing 5px;
+   font-style: oblique
 }
+
 a:link {
     color: black;
     font-weight: bold;
@@ -53,9 +63,25 @@ a:hover {
 a:active {
    color: purple;
 }
+
+a.pointer {
+  cursor: help; 
+} 
 p::first-letter {
    font-weight: bold;
    font-size: large;
+}
+p {
+  font-style: oblique;
+
+}
+p::selection {
+  color: red;
+  background: yellow;
+}
+p::-moz-selection {
+  color: red;
+  background: yellow;
 }
 
 ul li {
@@ -63,6 +89,14 @@ ul li {
     text-decoration: italic;
     letter-spacing: 5px;
 } 
+
+
 footer {
    word-spacing 10px;
+  font-style: oblique;
+  font-size: .8em
+}
+footer::first-letter {
+  font-weight: bold;
+  font-size: 1.2em;
 }
