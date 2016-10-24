@@ -12,14 +12,12 @@ body {
     margin-left: 25px;
     margin-bottom: 500px;
     padding: 25px;
-    padding-bottom: 400px;
-    
+    padding-bottom: 400px;    
 }
 nav {
   font-weight: bold;
   font-variant: small-caps;  
 }
-
 h1 {
     text-align: center;
     font-size: 2.1em;
@@ -28,15 +26,11 @@ h1 {
     word-spacing 5px;
     font-variant: small-caps;
     text-shadow: 2px 2px #F65B08;
-    
-
 }
 h3 {
    font-weight: bold;
    word-spacing 5px;
 }
-}
-
 h4 {
    font-weight: bold;
    word-spacing 5px;
@@ -46,24 +40,19 @@ h5 {
    word-spacing 5px;
    font-style: oblique
 }
-
 a:link {
     color: black;
     font-weight: bold;
 }
-
 a:visited {
    color: darkblue;
 }
-
 a:hover {
    color: darkgreen;
-}
-   
+}  
 a:active {
    color: purple;
 }
-
 a.pointer {
   cursor: help; 
 } 
@@ -73,7 +62,6 @@ p::first-letter {
 }
 p {
   font-style: oblique;
-
 }
 p::selection {
   color: red;
@@ -83,14 +71,11 @@ p::-moz-selection {
   color: red;
   background: yellow;
 }
-
 ul li {
     font-size: x-large; 
     text-decoration: italic;
     letter-spacing: 5px;
 } 
-
-
 footer {
    word-spacing 10px;
   font-style: oblique;
