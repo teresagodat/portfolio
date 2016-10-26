@@ -15,8 +15,8 @@ body {
     padding-bottom: 400px;    
 }
 nav {
-  font-weight: bold;
-  font-variant: small-caps;  
+    font-weight: bold;
+    font-variant: small-caps;  
 }
 h1 {
     text-align: center;
@@ -28,48 +28,48 @@ h1 {
     text-shadow: 2px 2px #F65B08;
 }
 h3 {
-   font-weight: bold;
-   word-spacing 5px;
+    font-weight: bold;
+    word-spacing 5px;
 }
 h4 {
-   font-weight: bold;
-   word-spacing 5px;
+    font-weight: bold;
+    word-spacing 5px;
 }
 h5 {
-   font-weight: bold;
-   word-spacing 5px;
-   font-style: oblique
+    font-weight: bold;
+    word-spacing 5px;
+    font-style: oblique
 }
 a:link {
     color: black;
     font-weight: bold;
 }
 a:visited {
-   color: darkblue;
+    color: darkblue;
 }
 a:hover {
-   color: darkgreen;
+    color: darkgreen;
 }  
 a:active {
-   color: purple;
-}
+    color: purple;
+}   
 a.pointer {
-  cursor: help; 
+    cursor: help; 
 } 
 p::first-letter {
-   font-weight: bold;
-   font-size: large;
+    font-weight: bold;
+    font-size: large;
 }
 p {
-  font-style: oblique;
+    font-style: oblique;
 }
 p::selection {
-  color: red;
-  background: yellow;
+    color: red;
+    background: yellow;
 }
 p::-moz-selection {
-  color: red;
-  background: yellow;
+    color: red;
+    background: yellow;
 }
 ul li {
     font-size: x-large; 
@@ -77,11 +77,11 @@ ul li {
     letter-spacing: 5px;
 } 
 footer {
-   word-spacing 10px;
-  font-style: oblique;
-  font-size: .8em
+    word-spacing 10px;
+    font-style: oblique;
+    font-size: .8em
 }
 footer::first-letter {
-  font-weight: bold;
-  font-size: 1.2em;
+    font-weight: bold;
+    font-size: 1.2em;
 }
