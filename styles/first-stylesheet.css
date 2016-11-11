@@ -37,14 +37,26 @@ footer  {
     height: 4rem;
     font-family: fontawesome;
     text-align: center;
+    padding-top: 2rem; 
+    margin-top: -4rem;
 }
 
 header nav {
     padding-left: 1rem;
     width: auto;
     font-size: 1.2rem;
+    margin-top: 10rem;
     
 
+}
+
+header section {
+    padding-bottom: 5rem;
+}
+
+h1 {
+  padding-left: 2rem;
+  
 }
 nav {
     background-color:#EBF0F2;
@@ -71,6 +83,11 @@ section p {
     padding-left: 2rem;
     padding-bottom: 1rem;
     font-size: 1.2rem;
+}
+
+section h3 {
+    font-size: 1.5rem; 
+    padding-left: 2rem;
 }
 
 span {
