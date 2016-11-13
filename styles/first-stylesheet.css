@@ -13,6 +13,7 @@ aside {
     border: .5rem solid #A68365;
     text-align: center;
     background-color: #EBF0F2;
+    padding-bottom: 2.5rem;
 }
 
 aside a {
@@ -21,13 +22,49 @@ aside a {
 
 aside img {
     float: none;
-    height: 20rem;
+    height: 16rem;
+    padding-left: 3.5rem;
 }
+
+#crossfade {
+    position:relative;
+    height:16rem;
+    width:20rem;
+    margin: 0 auto;
+}
+
+#blocks img {
+    display: inline-block;
+    height: 4rem;
+    width: 4rem;
+    padding-left: 6rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    margin-bottom: 2.5rem;  
+}
+  
+#blocks:hover { transform: scale(1.1); }
 
 body {
     background-color: #BFB7B0;
     margin-top:5rem;
     font-family: 'Handlee', cursive;
+}
+
+#crossfade img {
+    position:absolute;
+    left:0;
+    opacity: 1;   
+    transition: opacity 2s ease-in-out;
+}
+ 
+#crossfade img.top:hover {
+    opacity:0;
+    float: none;
+}
+
+#crossfade img.top {
+    width: 12rem;
 }
 
 footer  {
@@ -46,8 +83,6 @@ header nav {
     width: auto;
     font-size: 1.2rem;
     margin-top: 10rem;
-    
-
 }
 
 header section {
@@ -55,9 +90,15 @@ header section {
 }
 
 h1 {
-  padding-left: 2rem;
+    padding-left: 2rem;
   
 }
+
+
+main {
+    padding-bottom: 4.5rem;  
+}
+
 nav {
     background-color:#EBF0F2;
     text-align: left;
@@ -75,7 +116,7 @@ nav a {
 section {
 
     font-family: 'Oregano', cursive;
-  
+    padding-right: 2.5rem;  
 }
 
 section p {
@@ -91,13 +132,21 @@ section h3 {
 }
 
 span {
-  font-size: 1rem;
-  padding-left: 1rem;
+    font-size: 1rem;
+    padding-left: 1rem;
 }
 
 ul {
-   list-style-type: none;
-
-   font-size: 1.3rem;
+    list-style-type: none;
+    font-size: 1.3rem;
     line-height: 2.5rem;
 } 
+ul li:nth-child(even) {
+    background: white;
+    color: #594239;
+}
+
+ul li:nth-child(odd) {
+  background: #A68365;
+  color: #594239;
+}
