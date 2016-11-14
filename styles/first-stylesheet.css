@@ -33,11 +33,12 @@ aside img {
     margin: 0 auto;
 }
 
+#blocks {padding-left: 4.5rem;
+}
 #blocks img {
     display: inline-block;
     height: 4rem;
     width: 4rem;
-    padding-left: 6rem;
     margin-top: 2.5rem;
     margin-bottom: 2.5rem;
     margin-bottom: 2.5rem;  
